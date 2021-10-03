@@ -393,6 +393,8 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 			if(fill && polygon.length < 3) {
 				continue;
 			}
+			
+			polycount++;
 
 			// BEGIN exercise Back-Face Culling
 
